@@ -54,5 +54,7 @@ Input images can be downloaded from: https://github.com/teavanist/MNIST-JPG
 4. Layer 2 completion triggers the Output Layer
 5. The Output Layer performs argmax to determine the final digit classification
 6. Result is available in the `mnist_class` output (LED)
+
+
 ![Demo Image](demo/Flow_Chart.png)
 ![Demo Image](demo/demo.png)
