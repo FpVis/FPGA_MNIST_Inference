@@ -4,7 +4,7 @@
 This project implements a fully pipelined neural network for MNIST handwritten digit classification 
 on a BASYS-3 FPGA. It uses a three-layer fully connected architecture with quantized weights 
 and activations to achieve efficient hardware implementation.
-![Demo Image](demo/MNIST.png)
+![Demo Image](demo/MNIST_Flow.png)
 ## Features
 
 ### Neural Network Architecture
