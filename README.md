@@ -4,7 +4,7 @@
 This project implements a fully pipelined neural network for MNIST handwritten digit classification 
 on a BASYS-3 FPGA. It uses a three-layer fully connected architecture with quantized weights 
 and activations to achieve efficient hardware implementation.
-
+![Demo Image](demo/MNIST.png)
 ## Features
 
 ### Neural Network Architecture
@@ -20,19 +20,7 @@ and activations to achieve efficient hardware implementation.
 - Pipelining: Layer-by-layer execution with handshaking signals
 
 ## Block Diagram
-The system consists of the following key modules:
-
-[Input Image 28×28]
-![Demo Image](demo/demo.png)
-       ↓
-[FCN Layer 1 (784×60)] → BRAM for Layer 1 Output
-       ↓
-[FCN Layer 2 (60×30)] → BRAM for Layer 2 Output
-       ↓
-[Output Layer (30×10)] → Argmax Selection
-       ↓
-[Digit Classification Result]
-![Demo Image](demo/demo.png)
+![Demo Image](demo/diagram.png)
 
 ## Dependencies
 
@@ -66,3 +54,5 @@ Input images can be downloaded from: https://github.com/teavanist/MNIST-JPG
 4. Layer 2 completion triggers the Output Layer
 5. The Output Layer performs argmax to determine the final digit classification
 6. Result is available in the `mnist_class` output (LED)
+![Demo Image](demo/Flow_Chart.png)
+![Demo Image](demo/demo.png)
