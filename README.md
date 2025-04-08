@@ -48,6 +48,8 @@ and activations to achieve efficient hardware implementation.
 Input images can be downloaded from: https://github.com/teavanist/MNIST-JPG
 
 ### Processing Flow
+![Demo Image](demo/Flow_Chart.png)
+
 1. The system activates upon receiving an `i_run` trigger
 2. Layer 1 processes input image data (784 elements)
 3. When Layer 1 completes, it triggers Layer 2 processing
@@ -55,6 +57,4 @@ Input images can be downloaded from: https://github.com/teavanist/MNIST-JPG
 5. The Output Layer performs argmax to determine the final digit classification
 6. Result is available in the `mnist_class` output (LED)
 
-
-![Demo Image](demo/Flow_Chart.png)
 ![Demo Image](demo/demo.png)
