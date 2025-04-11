@@ -20,7 +20,7 @@ and activations to achieve efficient hardware implementation.
 - Pipelining: Layer-by-layer execution with handshaking signals
 
 ## Block Diagram
-![Demo Image](demo/Block_Diagram.png)
+![Demo Image](demo/BLOCK_DIAGRAM.png)
 
 ## Dependencies
 
